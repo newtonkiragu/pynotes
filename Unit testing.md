@@ -3,7 +3,7 @@
 A method by which individual units of code are scrutinized to determine if they are fit for use.
 
 ##### Test fixture
-Represents the preparation needed to perform one or more tests, and any associate cleanup actions. eg. creating temporary or proxy databases.
+Represents the preparation needed to perform one or more tests, and any associate cleanup actions. e.g. creating temporary or proxy databases.
 
 ##### Test case
 The individual unit of testing. It checks for a specific response to a particular set of inputs.
@@ -17,12 +17,13 @@ A component which orchestrates the execution of tests and provides the outcome t
 > The `unittest` module provides a rich set of tools for constructing and running tests.
 
 Example:
+
 ```python
 import unittest
 from fizzbuzz import fizz_buzz
 
 class TestFizzBuzzMethod(unittest.TestCase):
-	"""Tests behaviours of the ```fizz_buzz`` method."""
+	"""Tests behaviors of the ```fizz_buzz`` method."""
 	def test_fizz(self):
 		self.assertEqual(fizz_buzz(3), 'Fizz')
 
@@ -34,7 +35,7 @@ if __name__ == '__main__':
 ```
 A testcase is created by subclassing `unittest.TestCase`. Tests methods name's start with the letters `test`. This naming conventions informs the test runner about which methods represent tests.
 
-Inorder to test something, we use one of the assert*() methods provided by the TestCase base class. If the test fails, an exception will be raised, and unittest will identify the test case as a failure.
+In order to test something, we use one of the assert() methods provided by the TestCase base class. If the test fails, an exception will be raised, and unittest will identify the test case as a failure.
 
 [list of assert methods](#list-of-assert-methods)
 
