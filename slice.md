@@ -1,4 +1,6 @@
-`s = Hello`
+```python
+s = Hello
+```
 
 ```
  H  e  l  l  o
