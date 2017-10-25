@@ -24,11 +24,11 @@ new_l = [x * 2 for x in l] # [2, 4, 6]
 ```
 ### When to use lists:
 
->When data needs to be ordered.
-When data requires the ability to be changed or extended.
-When you don’t require data to be indexed by a custom value.
-When you need a stack or queue.
-When your data doesn’t have to be unique.
+* When data needs to be ordered.
+* When data requires the ability to be changed or extended.
+* When you don’t require data to be indexed by a custom value.
+* When you need a stack or queue.
+* When your data doesn’t have to be unique.
 
 ## Sets
 * `An unordered` collection of simple objects with `no duplicate` values.
@@ -56,12 +56,12 @@ frozen = frozenset([1, 2, 3])
 
 ### When to use sets
 
->When you want an unordered collection of unique elements
-When your data constantly changes.
-When you need a collection that can be manipulated mathematically.
-When you don’t need to store nested lists, sets, or dictionaries in a data structure.
-When the existence of an object in a collection is more important than the order or how many times it occurs.
-Use frozensets if you need both unique data and immutability.
+* When you want an unordered collection of unique elements
+* When your data constantly changes.
+* When you need a collection that can be manipulated mathematically.
+* When you don’t need to store nested lists, sets, or dictionaries in a data structure.
+* When the existence of an object in a collection is more important than the order or how many times it occurs.
+* Use frozensets if you need both unique data and immutability.
 
 ## Tuples
 
@@ -82,9 +82,9 @@ multi_elem_tuple = 'a', 'b', [1, 2, 3]
 
 ### When to use tuples
 
-> When you need to store data that doesn’t have to change.
+* When you need to store data that doesn’t have to change.
 When the performance of the application is very important. In this situation you can use tuples whenever you have fixed data collections.
-When you want to store your data in logical immutable pairs, triples etc.
+* When you want to store your data in logical immutable pairs, triples etc.
 
 ## Dictionary
 
@@ -106,6 +106,6 @@ dict([(1, 'a'), (2, 'e'), (3, 'i'), (4, 'o'), (5, 'u')])
 ```
 ### When to use a dictionary
 
->When you need a logical association between a key:value pair.
-When you need fast lookup for your data, based on a custom key.
-When your data is being constantly modified
+* When you need a logical association between a key:value pair.
+* When you need fast lookup for your data, based on a custom key.
+* When your data is being constantly modified
