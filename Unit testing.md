@@ -2,16 +2,16 @@
 
 A method by which individual units of code are scrutinized to determine if they are fit for use.
 
-##### Test fixture
+#### Test fixture
 Represents the preparation needed to perform one or more tests, and any associate cleanup actions. e.g. creating temporary or proxy databases.
 
-##### Test case
+#### Test case
 The individual unit of testing. It checks for a specific response to a particular set of inputs.
 
-##### Test suite
+#### Test suite
 A collection of test cases.
 
-##### Test runner
+#### Test runner
 A component which orchestrates the execution of tests and provides the outcome to the user. The test runner may use a graphical interface, a textual interface, or return a special value to indicate the results of executing the tests.
 
 > The `unittest` module provides a rich set of tools for constructing and running tests.
