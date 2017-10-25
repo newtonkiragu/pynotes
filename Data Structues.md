@@ -17,7 +17,7 @@ l = ['a', 'b', 123]
 ```
 ## List Comprehensions
 
-List comprehensions provide a concise way to create lists.
+Provide a concise way to create lists.
 ```python
 l = [1, 2, 3]
 new_l = [x * 2 for x in l] # [2, 4, 6]
@@ -106,6 +106,6 @@ dict([(1, 'a'), (2, 'e'), (3, 'i'), (4, 'o'), (5, 'u')])
 ```
 ### When to use a dictionary
 
-* When you need a logical association between a key:value pair.
-* When you need fast lookup for your data, based on a custom key.
+* When you need a logical association between a `key:value` pair.
+* When you need `fast lookup for your data, based on a custom key`.
 * When your data is being constantly modified
