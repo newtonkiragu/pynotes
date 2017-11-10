@@ -1,3 +1,5 @@
+> variable[start:end + 1]
+
 ```python
 s = Hello
 ```
@@ -21,4 +23,3 @@ s[-3:] |'llo'|starting with the 3rd char from the end and extending to the end o
 ```python
 s[:1] + s[1:] == s # True
 ```
-> variable[start:end + 1]
