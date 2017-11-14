@@ -1,7 +1,7 @@
 > variable[start:end + 1]
 
 ```python
-s = Hello
+s = "Hello"
 ```
 
 ```
