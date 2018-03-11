@@ -23,7 +23,7 @@ The concept that in programming objects being manipulated are more important tha
 * `subclass` - classes which inherit properties and methods from a parent class; it can also define it's own properties and methods.
 
 
-* `Abstraction` - Hiding all but relevant data about an object i order to reduce complexity and increase efficiency.
+* `Abstraction` - Hiding all but relevant data about an object in order to reduce complexity and increase efficiency.
 
 * `Encapsulation` - Mechanism of restricting access to some of the components of an object.
 
