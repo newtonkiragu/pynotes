@@ -66,8 +66,10 @@ frozen = frozenset([1, 2, 3])
 ## Tuples
 
 * Represented by a number of values separated by commas within an optional pair of parentheses.
-* `Immutable`
+* `Immutable`.
 * Tuples are immutable, but can hold mutable objects.
+* Tuples can be used as keys in dictionaries while lists cannot.
+* Tuples are faster than lists.
 
 ```python
 # constructing an empty tuple requires parentheses.

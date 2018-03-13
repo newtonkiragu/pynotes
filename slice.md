@@ -1,5 +1,8 @@
 > variable[start:end + 1]
 
+# Slice
+works with list, string or tuple
+
 ```python
 s = "Hello"
 ```
@@ -22,4 +25,13 @@ s[:-3] |'He' |going up to but not including the last 3 chars(exclude last 3 char
 s[-3:] |'llo'|starting with the 3rd char from the end and extending to the end of the string(last 3 char).|
 ```python
 s[:1] + s[1:] == s # True
+```
+
+slicing also works with three arguements. If the third argument is for example 3, only every third element from the range of the first two arguments will be taken.
+
+```python
+>>>str = "Python under Linux is great"
+>>>str[1::3]
+#finds every third string starting from the first
+'youeLuiga'
 ```

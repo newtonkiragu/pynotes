@@ -4,7 +4,7 @@ The concept that in programming objects being manipulated are more important tha
 
 * `class` - a logical grouping of data and functions.
 
-* `constructors` are used to create objects while `desctructors` are used to destroy them.
+* `constructors` are special methods used to create objects while `desctructors` are used to destroy them.
 
 * `methods` - functions which are actions that belong to an object.
 
@@ -22,8 +22,7 @@ The concept that in programming objects being manipulated are more important tha
 
 * `subclass` - classes which inherit properties and methods from a parent class; it can also define it's own properties and methods.
 
-
-* `Abstraction` - Hiding all but relevant data about an object i order to reduce complexity and increase efficiency.
+* `Abstraction` - Hiding all but relevant data about an object in order to reduce complexity and increase efficiency.
 
 * `Encapsulation` - Mechanism of restricting access to some of the components of an object.
 
