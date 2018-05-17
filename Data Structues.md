@@ -22,6 +22,61 @@ Provide a concise way to create lists.
 l = [1, 2, 3]
 new_l = [x * 2 for x in l] # [2, 4, 6]
 ```
+## List Operations
+- Slicing a list
+Returns a shallow copy of the list. The slicing indexes are optional and they work in the same way as slicing strings.
+```
+>>> l = ['a', 'b', 123]
+>>> l[:]
+['a', 'b', 123]
+>>> new_l = l[1:]
+>>> new_l
+['b', 123]
+```
+- Inserting and removing elements
+```
+>>> l = ['a', 'b', 123]
+>>> l.append(234) #inserts an element at the end of the list
+>>> l
+['a', 'b', 123, 234]
+>>> l.insert(2, 'c') #inserts an element into the third position
+>>> l
+['a', 'b', 'c', 123, 234]
+>>> l.insert(-1, 111) #inserts an element into the second from last position of the list (negative indices start from the end of the list)
+>>> l
+['a', 'b', 'c', 123, 111, 234]
+>>> l.remove(111) #removes an element based on value
+>>> l
+['a', 'b', 'c', 123, 234]
+```
+- Retreiving and looking up elements
+Lists can also be used as stacks or queues because of how easy it is to add and remove elements from the beginning or end of the list.
+```
+>>> last_element = l.pop() #returns the last element, modifying the list
+>>> last_element
+234
+>>> l
+['a', 'b', 'c', 123]
+>>> third_element = l.pop(2) #returns the third element, modifying the list
+>>> third_element
+'c'
+>>> l
+['a', 'b', 123]
+>>> l.index('a') 
+0
+```
+- Whole-List Operations
+```
+>>> l.extend ([1, 2]) # concatenates a list on to the existing list
+>>> l
+['a', 'b', 123, 1, 2]
+>>> l.sort()
+>>> l
+[1, 2, 123, 'a', 'b']
+>>> l.reverse()
+>>> l
+['b', 'a', 123, 2, 1]
+```
 ### When to use lists:
 
 * When data needs to be ordered.
@@ -29,6 +84,7 @@ new_l = [x * 2 for x in l] # [2, 4, 6]
 * When you don’t require data to be indexed by a custom value.
 * When you need a stack or queue.
 * When your data doesn’t have to be unique.
+* When you need a mixed collection of data.
 
 ## Sets
 * `An unordered` collection of simple objects with `no duplicate` values.
@@ -54,6 +110,36 @@ A regular set except that it is immutable. It is created using the keyword froze
 frozen = frozenset([1, 2, 3])
 ```
 
+## Set Comprehensions
+find the unique consonants within a word
+```
+>>> vowels = ['a', 'e', 'i', 'o', 'u']
+>>> {x for x in 'maintenance' if x not in vowels }
+set(['c', 'm', 't', 'n'])
+```
+
+## Set Operations
+- Joining sets
+```
+>>> set1 = set([1, 2, 3])
+>>> set2 = set([3, 4, 5])
+>>> set1 | set2 #union
+set([1, 2, 3, 4, 5])
+```
+- finding set intersection
+```
+>>> set1 = set([1, 2, 3])
+>>> set2 = set([3, 4, 5])
+>>> set1 & set2 #intersection
+set([3])
+```
+- finding set differences
+```
+>>> set1 = set([1, 2, 3])
+>>> set2 = set([3, 4, 5])
+>>> set1 ^ set2 #symmetric difference (elements that are in the first set and the second, but not in both)
+set([1, 2, 4, 5])
+```
 ### When to use sets
 
 * When you want an unordered collection of unique elements
