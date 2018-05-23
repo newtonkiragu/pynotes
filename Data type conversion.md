@@ -1,4 +1,5 @@
 # Data type Conversions
+To convert between types, you simply use the type name as a function
 
 |**Function**|**Description**|**Example**|
 |----|:----|:----|
