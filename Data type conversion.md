@@ -1,7 +1,7 @@
 # Data type Conversions
 
 |**Function**|**Description**|**Example**|
-|----|:----:|----:|
+|----|:----:|--:--|
 |int(x [,base])|Converts x to an integer. base specifies the base if x is a string.|int('12')|
 |float(x)|Converts x to a floating-point number.|float(65464)|
 |complex(real [,imag])|Creates a complex number.|complex(65465)|
