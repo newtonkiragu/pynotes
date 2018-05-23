@@ -2,9 +2,9 @@
 
 > Python reference notes
 
-## Maintainer
+## Maintainers
 
-[@EdwardMudaida](https://github.com/EdwardMudaida)
+[@EdwardMudaida](https://github.com/EdwardMudaida),
 [@newtonkiragu](https://github.com/newtonkiragu/)
 
 
