@@ -13,23 +13,23 @@ Assume `a = 10`, `b = 20`.
 ## [Arithmetic operators](#aro)
 |**Operator**|**Description**|**example**|
 |:----|:----|:----|
-|+ Addition|adds values on either sides of the operator|a+b = 30|
-|- Subtraction|subtracts right hand operand from left hand operand|b-a = 10|
-|* Multiplication|multiplies values on either side of operator|a*b = 200|
-|/ Division|divides left hand operand from right hand operand|a/b = 0.5|
-|% Modulus|divides left hand operand from right hand operand and returns remainder|a%b = 10|
-|** Exponent|performs and exponential(power) calculation on operands|a**b = 100000000000000000000|
-|// Floor division| The division of operands where the result is the quotient in which the digits after the decimal point are removed. But if one of the operands is negative, the result is floored, i.e., rounded away from zero (towards negative infinity)|b//a = 2|
+|+ Addition|adds values on either sides of the operator|a + b = 30|
+|- Subtraction|subtracts right hand operand from left hand operand|b - a = 10|
+|* Multiplication|multiplies values on either side of operator|a * b = 200|
+|/ Division|divides left hand operand from right hand operand|a / b = 0.5|
+|% Modulus|divides left hand operand from right hand operand and returns remainder|a % b = 10|
+|** Exponent|performs and exponential(power) calculation on operands|a ** b = 100000000000000000000|
+|// Floor division| The division of operands where the result is the quotient in which the digits after the decimal point are removed. But if one of the operands is negative, the result is floored, i.e., rounded away from zero (towards negative infinity)|b // a = 2|
 
 ## [Comparison operators](#co) 
 |**Operator**|**Description**|**example**|
 |:----|:----|:----|
-|==|if the value of operands are equal, then the condition becomes true.| (a==b) is not true|
-|!=|if the values of the operands are not equal, then the condition becomes true|(a!=b) is true|
-|>|If the value of left operand is greater than the value of right operand, then condition becomes true.|a>b is False|
-|<|If the value of left operand is less than the value of right operand, then condition becomes true.|a\<b is True|
-|>=|If the value of left operand is greater than or equal to the value of right operand, then condition becomes true.|a>=b is False|
-|<=|If the value of left operand is less than or equal to the value of right operand, then condition becomes true.|a<=b is True|
+|==|if the value of operands are equal, then the condition becomes true.| (a == b) is not true|
+|!=|if the values of the operands are not equal, then the condition becomes true|(a != b) is true|
+|>|If the value of left operand is greater than the value of right operand, then condition becomes true.|a > b is False|
+|<|If the value of left operand is less than the value of right operand, then condition becomes true.|a \< b is True|
+|>=|If the value of left operand is greater than or equal to the value of right operand, then condition becomes true.|a >= b is False|
+|<=|If the value of left operand is less than or equal to the value of right operand, then condition becomes true.|a <= b is True|
 
 ## [Assignment operators](#aso) 
 |**Operator**|**Description**|**example**|
