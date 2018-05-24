@@ -30,7 +30,7 @@ The concept that in programming objects being manipulated are more important tha
 
 * `Polymorphism` - The process of using an operator/ function in different ways for different data inputs.
 
-> `subclassing` and `inheritance` can help save time by re-using and better organizing code.
+* `subclassing` and `inheritance` can help save time by re-using and better organizing code.
 
 ## 	OOP Phrase Drills
 
