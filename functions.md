@@ -2,14 +2,14 @@
 A function is a block of organized, reusable code that is used to perform a single, related action.
 
 Syntax
-```
+```python
 def functionname( parameters ):
    "function_docstring"
    function_suite
    return [expression]
 ```
 Example
-```
+```python
 # Function definition is here
 def changeme( mylist ):
    "This changes a passed list into this function"
@@ -27,7 +27,7 @@ print "Values outside the function: ", mylist
 Returns a sorted list of strings containing the names defined by a module
 
 Example
-```
+```python
 #!/usr/bin/python
 
 # Import built-in module math
