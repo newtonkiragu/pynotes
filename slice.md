@@ -23,7 +23,7 @@ s[-1] |'o'|last char(1st from the end)|
 s[-4] |'e' |4th from the end.|
 s[:-3] |'He' |going up to but not including the last 3 chars(exclude last 3 chars).|
 s[-3:] |'llo'|starting with the 3rd char from the end and extending to the end of the string(last 3 char).|
-s[::-1] | 'olleh' | Reverses the characters if the string. |
+s[::-1] | 'olleh' | Reverses the characters of the string. |
 ```python
 s[:1] + s[1:] == s # True
 ```
