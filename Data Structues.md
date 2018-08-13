@@ -8,7 +8,7 @@ There are 4 built in data structures in Python - `list`, `tuple`, `dictionary` a
 * Holds an `ordered` collection of items.
 * Can contain items of different types.
 * Most versatile type of data structure in Python.
-* Has no rules against unicity.
+* Has no rules against unicity(meaning it It can contain items of different datatypes).
 * List indices start from zero.
 * `Mutable`
 
