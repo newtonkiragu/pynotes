@@ -192,6 +192,18 @@ vowels = {1: 'a', 2: 'e', 3: 'i', 4: 'o', 5: 'u'}
 dict([(1, 'a'), (2, 'e'), (3, 'i'), (4, 'o'), (5, 'u')])
 # {1: 'a', 2: 'e', 3: 'i', 4: 'o', 5: 'u'}
 ```
+**NB:** to display content in your dictionary in a more legible manner, use `json.dumps()` to achieve this.
+```python
+>>> my_mapping = {'a': 23, 'b': 42, 'c': 0xc0ffee}
+>>> my_mapping
+{'a': 23, 'b': 42, 'c': 0xc0ffee}
+>>> import json
+>>> print(json.dumps(my_mapping, indent=4, sort_keys=True))
+{
+    'a': 23,
+    'b': 42,
+    'c': 12648430
+}
 ### When to use a dictionary
 
 * When you need a logical association between a `key:value` pair.
