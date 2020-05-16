@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Welcome to Jekyll!"
+toc: true
+---
+
 # Loops
 A loop statement allows us to excecute a statement or multiple statements multiple times
 

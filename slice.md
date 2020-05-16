@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Welcome to Jekyll!"
+toc: true
+---
 > variable[start:end + 1]
 
 # Slice

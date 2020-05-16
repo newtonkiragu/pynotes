@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Welcome to Jekyll!"
+toc: true
+---
 # Data Structures
 Data structure are structures programmed to store data, so that various operations can be performed on it easily.
 

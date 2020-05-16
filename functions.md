@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Welcome to Jekyll!"
+toc: true
+---
+
 # Function
 A function is a block of organized, reusable code that is used to perform a single, related action.
 

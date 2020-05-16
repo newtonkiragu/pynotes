@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Welcome to Jekyll!"
+toc: true
+---
+
 # Object Oriented Programming
 
 The concept that in programming objects being manipulated are more important than the logic needed to manipulate those objects.

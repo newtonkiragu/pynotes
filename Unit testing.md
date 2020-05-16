@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Welcome to Jekyll!"
+toc: true
+---
+
 # Unit testing
 
 A method by which individual units of code are scrutinized to determine if they are fit for use.

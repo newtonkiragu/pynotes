@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Welcome to Jekyll!"
+toc: true
+---
+
 # Data type Conversions
 To convert between types, you simply use the type name as a function
 

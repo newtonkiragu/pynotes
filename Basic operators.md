@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Welcome to Jekyll!"
+toc: true
+---
 # Basic Operators
 Operators are the constructs which can manipulate the value of operands.
 Python has the following operators
@@ -46,6 +51,7 @@ Assume `a = 10`, `b = 20`.
 
 ## [Membership operators](#mo) 
 Python’s membership operators test for membership in a sequence, such as strings, lists, or tuples.
+
 |**Operator**|**Description**|**example**|
 |:----|:----|:----|
 |in|Evaluates to true if it finds a variable in the specified sequence and false otherwise.|x in y, here in results in a 1 if x is a member of sequence y.|
@@ -54,6 +60,7 @@ Python’s membership operators test for membership in a sequence, such as strin
 
 ## [Identity operators](#i0) 
 Identity operators compare the memory locations of two objects
+
 |**Operator**|**Description**|**example**|
 |:----|:----|:----|
 |is|Evaluates to true if the variables on either side of the operator point to the same object and false otherwise.|a is b returns false|
