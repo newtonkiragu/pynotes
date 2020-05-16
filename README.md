@@ -1,6 +1,7 @@
 # pynotes
 
 > Python reference notes
+
 ## Table of Content
 1. [Introduction to OOP](OOP.md)
 2. [Data Structures](Data%20Structues.md)
